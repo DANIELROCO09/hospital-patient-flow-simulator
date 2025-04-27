@@ -1,6 +1,6 @@
-🏥 Simulación de Procesos de Urgencias en un Hospital
+**🏥 Simulación de Procesos de Urgencias en un Hospital**
 
-Descripción General
+**Descripción General**
 
 Este proyecto simula el flujo de pacientes que llegan a un hospital, pasando por diferentes etapas:
 
@@ -12,7 +12,7 @@ Este proyecto simula el flujo de pacientes que llegan a un hospital, pasando por
 
 - Seguimiento y alta
 
-Características Principales
+**Características Principales**
 
     Programación asíncrona: Uso de asyncio para manejar múltiples pacientes concurrentemente
 
@@ -21,6 +21,8 @@ Características Principales
     Gestión de recursos limitados: Semáforos para controlar acceso a camas y doctores
 
     Simulación realista: Tiempos de espera y procesamiento similares a un entorno real
+
+**Estructura del proyecto**
 
 ```
 📁 hospital_system/
@@ -36,21 +38,19 @@ Características Principales
 ```
 
 Tecnologías utilizadas
-Python 3.11+
+- Python 3.11+
+- asyncio (programación asíncrona)
+- multiprocessing (procesamiento paralelo)
+- threading y asyncio.Semaphore (control de concurrencia)
+- Librerías estándar de Python
 
-asyncio (programación asíncrona)
-
-multiprocessing (procesamiento paralelo)
-
-threading y asyncio.Semaphore (control de concurrencia)
-
-Librerías estándar de Python
-
-Ejecución
+**Ejecución**
 
 1- Clona el repositorio:
-``` gitclone 
+``` gitclone https://github.com/DANIELROCO09/hospital-patient-flow-simulator.git```
+
 2- Ejecuta la simulación:
+```python main.py```
 
 3- Se simularán múltiples pacientes procesándose en paralelo y asincronía, mostrando el paso de cada paciente por el sistema.
 
